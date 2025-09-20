@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bro-Kage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bro-Kage</h1>
+    <p>Brokerage & Discount Organization</p>
+  </header>
+
+  <section class="portfolio">
+    <div class="card">
+      <h3>Discount Brokerage</h3>
+      <p>Affordable brokerage solutions for individuals and businesses.</p>
+    </div>
+    <div class="card">
+      <h3>Investment Portfolio</h3>
+      <p>Diversified investment strategies to maximize returns.</p>
+    </div>
+    <div class="card">
+      <h3>Discount Programs</h3>
+      <p>Exclusive access to discounts on services and products.</p>
+    </div>
+    <div class="card">
+      <h3>Client Services</h3>
+      <p>24/7 support and personalized financial consulting.</p>
+    </div>
+  </section>
+</body>
+</html>
